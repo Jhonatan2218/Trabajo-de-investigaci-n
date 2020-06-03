@@ -209,6 +209,7 @@ Registro de interrupción y de refresco de memoria
 
 El registro I se utiliza para saber dónde está la rutina que se debe ejecutar cuando el procesador recibe una interrupción, el registro R se utiliza para refresco de memoria dinámica. 
 Una vez hemos visto toda la información correspondiente a los registros, podemos pasar a las instrucciones. El microprocesador Z80 tiene 158 instrucciones.
+![](Imagenes/Cuadro%20de%20Registros.jpeg)
 
 Las instrucciones se dividen en las siguientes categorías: 
 
