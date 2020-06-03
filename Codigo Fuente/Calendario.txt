@@ -1,0 +1,119 @@
+	;Calendario	
+	LD B, 31;  //---->Dia
+	LD C, 12;   //---->Mes
+	LD D, 5;  //---->Año
+	LD A, C;
+	SUB 12
+	JP Z, DICI;   // Mes-12=0
+	JP P, ERROR;  // Mes-12>0 mes no existe.
+	LD A, C;      //La etiqueta ERROR hace que los registros B,C,D tengan valor cero.	
+	SUB 11
+	JP Z, NOVI;
+	LD A, C;
+	SUB 10
+	JP Z, OCTU;
+	LD A, C;
+	SUB 9
+	JP Z, SEPTI;
+	LD A, C;
+	SUB 8
+	JP Z, AGOS;
+	LD A, C;
+	SUB 7
+	JP Z, JULI;
+	LD A, C;
+	SUB 6
+	JP Z, JUNI;
+	LD A, C;
+	SUB 5
+	JP Z, MAYO;
+	LD A, C;
+	SUB 4
+	JP Z, ABRI;
+	LD A, C;
+	SUB 3
+	JP Z, MAR;
+	LD A, C;
+	SUB 2
+	JP Z, FEBRE;
+	LD A, C;
+	SUB 1
+	JP Z, ENE;
+	JP M, ERROR;  // Mes-1<0 mes no existe.
+
+ERROR	LD B, 00H
+	LD C, 00H
+	LD D, 00H
+	HALT
+ 	.END
+ASUMA	INC D;
+	LD B,1
+	LD C,1
+	HALT
+	.END
+MSUMA 	INC C;
+	LD B, 1
+	HALT
+	.END
+DSUMA 	INC B;
+	HALT
+	.END
+ENE 	LD A, B
+	SUB 31
+	JP Z, MSUMA;
+	JP M, DSUMA;
+FEBRE	LD A, B
+	SUB 28
+	JP Z, MSUMA;
+	JP M, DSUMA;
+	JP P, ERROR;
+MAR	LD A, B
+	SUB 31
+	JP Z, MSUMA;
+	JP M, DSUMA;
+	JP P, ERROR;
+ABRI	LD A, B
+	SUB 30
+	JP Z, MSUMA;
+	JP M, DSUMA;
+	JP P, ERROR;
+MAYO	LD A, B
+	SUB 31
+	JP Z, MSUMA;
+	JP M, DSUMA;
+	JP P, ERROR;
+JUNI	LD A, B
+	SUB 30
+	JP Z, MSUMA;
+	JP M, DSUMA;
+	JP P, ERROR;
+JULI	LD A, B
+	SUB 31
+	JP Z, MSUMA;
+	JP M, DSUMA;
+	JP P, ERROR;
+AGOS	LD A, B
+	SUB 31
+	JP Z, MSUMA;
+	JP M, DSUMA;
+	JP P, ERROR;
+SEPTI	LD A, B
+	SUB 30
+	JP Z, MSUMA;
+	JP M, DSUMA;
+	JP P, ERROR;
+OCTU	LD A, B
+	SUB 31
+	JP Z, MSUMA;
+	JP M, DSUMA;
+	JP P, ERROR;
+NOVI	LD A, B
+	SUB 30
+	JP Z, MSUMA;
+	JP M, DSUMA;
+	JP P, ERROR;
+DICI	LD A, B
+	SUB 31
+	JP Z, ASUMA;
+	JP M, DSUMA;
+	JP P, ERROR;

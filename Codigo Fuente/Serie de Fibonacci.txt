@@ -1,0 +1,23 @@
+;Fibonacci
+	ld b,10 ;Número de sucesiones
+	ld c,1 ;valor inicial 1
+	ld d,0 ;valor inical 0
+	ld e,0 ;valor inical 0
+	ld HL,50h
+ciclo	ld e,d
+	ld d,c
+	ld a,e
+	add a,d
+	ld c,a
+	djnz par
+	HALT
+	.END
+par	sub 2
+	jp z,show
+	jp p,par
+	jp M,ciclo
+show	ld (HL),c
+	inc HL
+	jp ciclo
+		
+	
