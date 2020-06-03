@@ -40,6 +40,7 @@ El Intel 8080, lanzado en 1974, fue el primer microprocesador de 8 bits que tuvo
 Hoy en día, el Z80 se sigue utilizando, en una de sus últimas evoluciones (el Zilog eZ80) como microprocesador de algunas calculadoras gráficas y como microprocesador de algunos sistemas embebidos, lo cual da una idea de su versatilidad si tenemos en cuenta que se lanzó al mercado en 1976. 
 
 El Z80 tenía ocho mejoras fundamentales 
+
   •	Un conjunto de instrucciones mejorado, incluyendo los nuevos registros índice IX e IY y las instrucciones necesarias para manejarlos.
   •	Dos bancos de registros que podían ser cambiados de forma rápida para acelerar la respuesta a interrupciones.
   •	Instrucciones de movimiento de bloques, E/S de bloques y búsqueda de bytes.
