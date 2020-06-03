@@ -65,6 +65,8 @@ Pero Intel no siempre tuvo la visión de futuro acertada. Moore recuerda como a 
 (JOHN HANNER MARQUEZ ORTIZ, 2013)
 En el año 1969, un equipo de ingenieros japoneses de la compañía BUSICOM llegó a Estados Unidos con una idea, ellos deseaban usar para sus proyectos pocos circuitos integrados de los que se usaban en las calculadoras. La proposición se hizo a INTEL (JOHN HANNER MARQUEZ ORTIZ, 2013). El Intel 4004 fue el primer microprocesador de la historia y, tras éste, Intel desarrolló otro procesador más del cual se encargó Federico Faggin, responsable del Intel 4004, al que se le encargó el desarrollo de un procesador de 8 bits, el Intel 8080 que también gozó de un gran éxito en el mercado. Al finalizar este proyecto en 1974, Faggin pensó que era hora de volar en solitario y afrontar nuevos proyectos y decidió fundar su propia compañía, Zilog, en la que se desarrollaría otro mítico procesador: el Zilog Z80.
 
+Z80
+
 Faggin decidió afrontar el desarrollo de un nuevo procesador que, desde el punto de vista práctico, fuese totalmente compatible con el Intel 8080 pero que, en prestaciones, fuese mejor.
 
 Tras dos años de trabajo, en los que Faggin diseñó la arquitectura del procesador y supervisó la fabricación, el Zilog Z80 fue lanzado al mercado en julio de 1976.De ahí que el Intel 8080 tenga su parecido con el Z80, pero añadiendo nuevos registros y un juego de instrucciones ampliado para trabajar en ello, los registros del microprocesador permiten almacenar valores en memoria y realizar diferentes operaciones con ellos. Este microprocesador cuenta con registros de 8 bits, que pueden juntarse en grupos de dos para realizar operaciones de 16 bits, muy lejos de los 64 bits que utilizan los microprocesadores actuales.
