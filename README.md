@@ -237,6 +237,44 @@ Las instrucciones se dividen en las siguientes categorías:
 
 Algunas instrucciones con su forma de lenguaje:
 
+MARCO TEÓRICO COLLAPSE OS
+Virgil Dupras, desarrollador de software Collapse os es un sistema operativo de código abierto diseñado específicamente para los días más oscuros de la humanidad. Tendrá que ser capaz de trabajar con componentes que se encuentran en todas partes y fáciles de recuperar en anticipación de un futuro apocalíptico donde la electrónica de consumo es cosa del pasado. Collapse os tiene como objetivo suavizar el golpe de ese futuro apocalíptico. Es un sistema operativo Forth y una colección de herramientas y documentación con un solo propósito: preservar la capacidad de programar microcontroladores a través del colapso de la civilización. Pero la electrónica seguiría siendo una enorme fuente de poder político y social y ofrecería ventajas significativas a las comunidades que lograran seguir dominándola. Esto marcará el comienzo de una nueva era de “productos caseros electrónicos”. No podríamos fabricarlos los microprocesadores, pero tendríamos millones de chips repartidos por todo el mundo fruto de la basura electrónica acumulada durante décadas. Funcionará con microprocesadores Z80 de 8 bits. Aunque son muy antiguos, se podrían encontrar masivamente en viejas computadoras, cajas registradoras, instrumentos musicales, calculadoras gráficas y centenares de productos electrónicos. Y otro asunto importante: el Z80 solo tiene 9.000 transistores, por lo que sería mucho más sencillo de reprogramar que un procesador moderno con miles de millones.
+Está diseñado para:
+1.	Ejecutar en máquinas mínimas e improvisadas.
+2.	Interfaz a través de medios improvisados (serie, teclado, pantalla).
+3.	Editar archivos de texto.
+4.	Compile archivos fuente de ensamblador para una amplia gama de MCU y CPU.
+5.	Lea y escriba desde una amplia gama de dispositivos de almacenamiento.
+6.	Ensamblar y desplegar en otra máquina
+Además, el objetivo de este proyecto es ser lo más autónomo posible. Con una copia de este proyecto, “cualquier” persona capaz y creativa debería ser capaz de construir e instalar Collapse OS sin recursos externos (es decir, Internet) en una máquina de su diseño, construida a partir de piezas recolectadas con herramientas de baja tecnología.
+Con todo lo mencionado, en el colapso de la civilización en el ámbito de la tecnología “cualquiera” podría crear su propia computadora. (eso pa la diapositiva creo :v)
+(Eso es lo más relevante que encontré hay añádele tu algo mas, con todo igual seguire trabajando para buscar mas y te aviso)
+
+
+LINKS BIBLIOGRAFIA marco teorico
+http://repositorio.unesum.edu.ec/bitstream/53000/1548/1/UNESUM-ECU-SISTEMAS-2019-15.pdf
+http://galia.fc.uaslp.mx/~cantocar/microprocesadores/TUTORIALES/EL_MICRO_Z80/ARQUITECTURA_DEL_MICROPROCE.HTM
+http://sistel.xp3.biz/microprocesadores/tm_arquitectura_z80.html
+http://hdl.handle.net/10045/96413
+https://hipertextual.com/2012/02/historia-de-la-tecnologia-zilog-z80
+https://blog.desdelinux.net/collapse-os-el-sistema-operativo-post-apocalipsis-disenado-para-trabajar-con-componentes-faciles-de-recuperar/
+DIAGRAMAS EN LOS LINKS.
+MANUAL DE INSTRUCCIONES
+Z80
+http://www1.frm.utn.edu.ar/tecnicad2/tec_dig2/doc/Z80-CPU-Manual-SP.pdf
+COLLAPSE OS
+Podemos poner la pagina del github
+ejemplos
+https://modscolombia.jimdofree.com/info/z80
+ 
+CONCLUSIONES.
+•	De presentarse un evento catastrófico, este proyecto significaría una posibilidad de reestablecer el desarrollo tecnológico a base de pocos recursos utilizando un sistema operativo que no exige de muchos requisitos físicos para implementar un equipo que pueda ejecutarlo. 
+•	El sistema basado en un procesador z80 ofrece la posibilidad de ser construido a base de materiales reciclados, sin embargo, su interfaz no es precisamente la más amigable para un usuario promedio, por lo que las personas que tengan mayor dominio sobre los dispositivos electrónicos destacaran.
+•	La arquitectura basada en el modelo de Von Newman ha prevalecido desde 1945 y demuestra lo eficaz que es en la práctica.  
+RECOMENDACIONES.
+Manejar conocimientos en área de programación y sistemas digitales seria de vital importancia en el escenario con el que se justifica este proyecto. Por lo que se recomienda:
+-	Diseñar sistemas basados en este tipo de arquitectura, entendiendo su funcionamiento y simulando aplicaciones que sean útiles para el ser humano, considerando que en la actualidad este tipo de sistemas, por su antigüedad, tienden a ser más accesibles.
+-	Difundir entre la comunidad científica el estado de desarrollo en el que se encuentra el proyecto, para que sea de conocimiento general e incentive a futuros proyectos investigación.
 
 
 
