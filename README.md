@@ -9,3 +9,10 @@ El sistema operativo Collapse OS es un peculiar proyecto de sistema operativo de
 
 Objetivo General
 Conocer el sistema operativo Collapse OS junto con la estructura del microprocesador Z80 y encontrar la relación entre ellos posteriormente realizar un ejemplo del microprocesador Z80
+Objetivos Especificos
+
+Investigar el funcionamiento del sistema operativo Collapse O.S y como es que Funcionará con microprocesadores Z80 de 8 bits
+Investigar la arquitectura del microprocesador Zilog Z80 para realizar algoritmos que nos permitan hacer simulaciones y comprender mejor su funcionamiento.
+Comprender y explicar el funcionamiento de Collapse Os 
+Conocer la arquitectura del microprocesador Z80
+Simular ejemplos del z80
