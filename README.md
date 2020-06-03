@@ -1,11 +1,11 @@
 # Trabajo-de-investigación
 Tema: Explicar el funcionamiento de Collapse OS. La arquitectura del microprocesador z80 y simular ejemplos para z80.
 
-1) Planteamiento del Problema
+1) PLANTEAMIENTO DEL PROBLEMA.
 
 El sistema operativo Collapse OS es un peculiar proyecto de sistema operativo de código abierto concebido para usarlo en los momentos que la humanidad lo necesite, en un mundo postapocalíptico donde la era de la electrónica y tecnología que hoy conocemos ya no exista. El microprocesador Z80 de 8 bits será el encargado de ejecutar este sistema operativo, ya que son muy antiguos, se podrían encontrar masivamente en cualquier parte del mundo y otra característica importante es que tan solo cuenta con 9.000 transistores, por lo que sería mucho más sencillo de reprogramar que un procesador moderno con miles de millones de transistores. En la historia de la tecnología los microcontroladores poseen una gran importancia, ya que son usados para todo tipo de aplicaciones, computadoras, cajas registradoras, instrumentos musicales, calculadoras gráficas y centenares de productos electrónicos hasta aplicaciones mucho más avanzadas, y complejas, por lo tanto, aprender a utilizar correctamente estos dispositivos es importante para las personas en carreras técnicas. Una de las mayores dificultades a la hora de aprender a implementar estos dispositivos, no es como se podría pensar la construcción del circuito, sino aprender a programarlos. Los microcontroladores se han constituido en un elemento primordial para el avance de las nuevas tecnologías, de ahí parte la necesidad de no solo conocerlos en sus usos también como emplearlos, la programación se convierte en algo apremiante de conocer, las herramientas con las cuales se pueda adquirir conocimiento son muy importantes.
 
-2) Objetivos
+2) OBJETIVOS
 
 Objetivo General
 
@@ -19,7 +19,7 @@ Objetivos Especificos
     •	Conocer la arquitectura del microprocesador Z80.
     •	Simular ejemplos del z80.
 
-3) Estado del Arte
+3) ESTADO DEL ARTE
 
 1.Collaspe OS
 
@@ -54,9 +54,9 @@ El Z80 tenía ocho mejoras fundamentales
 
 A fines de 1975, incluso antes de anunciar el Z80, Faggin tuvo claro que la compañía necesitaba un sucesor de 16 bits para el Z80. Sintió que los procesadores de 16 bits eran el futuro y que el futuro era inminente. En ese momento, Zilog tenía todos los 11 empleados. Sin embargo, Faggin no quería crear una versión ampliada de 16 bits del Z80, un "super Z80". Además, no se sentía calificado para desarrollar una nueva arquitectura de microprocesador de 16 bits a partir de todo el tejido, por lo que buscó un arquitecto de procesadores experto. Encontró al Dr. Peuto, que había estado trabajando en la arquitectura mainframe 470 / V6 compatible con IBM de Amdahl desde 1973. Peuto se convirtió rápidamente en el duodécimo empleado de Zilog. (Leibson, 2019).
 
-Marco teorico
+4)MARCO TEORICO
 
-Microprocesadores
+Microprocesadores.
 
 Intel Corporation.
 
@@ -65,7 +65,7 @@ Pero Intel no siempre tuvo la visión de futuro acertada. Moore recuerda como a 
 (JOHN HANNER MARQUEZ ORTIZ, 2013)
 En el año 1969, un equipo de ingenieros japoneses de la compañía BUSICOM llegó a Estados Unidos con una idea, ellos deseaban usar para sus proyectos pocos circuitos integrados de los que se usaban en las calculadoras. La proposición se hizo a INTEL (JOHN HANNER MARQUEZ ORTIZ, 2013). El Intel 4004 fue el primer microprocesador de la historia y, tras éste, Intel desarrolló otro procesador más del cual se encargó Federico Faggin, responsable del Intel 4004, al que se le encargó el desarrollo de un procesador de 8 bits, el Intel 8080 que también gozó de un gran éxito en el mercado. Al finalizar este proyecto en 1974, Faggin pensó que era hora de volar en solitario y afrontar nuevos proyectos y decidió fundar su propia compañía, Zilog, en la que se desarrollaría otro mítico procesador: el Zilog Z80.
 
-Z80
+ Microprocesador Zilog Z80
 
 Faggin decidió afrontar el desarrollo de un nuevo procesador que, desde el punto de vista práctico, fuese totalmente compatible con el Intel 8080 pero que, en prestaciones, fuese mejor.
 
@@ -74,4 +74,21 @@ Un año después sale al mercado el primer computador que hace uso del Z80, el T
 
 Fue muy popular durante los años 80 debido principalmente a dos razones: ser compatible con el Intel 8080 ya que fue el mismo Faggin quien lo diseño, y ser popularizado por varias videoconsolas (Amstrad CPC, Sinclair ZX Spectrum). Posteriormente ha sido utilizado por tras videoconsolas (Sega Master System, Nitendo Game Boy Advance y chip dedicado de audio en la Sega MegaDrive). 
 Tras del Z80 Zilog introduce varios procesadores de 16 bits y 32 bits, pero sin mucho éxito, por lo que la compañía se orienta al mercado de microcontroladores, produciendo CPUs básicas y Circuitos Integrados para Aplicaciones Específicas (ASICs/ASSPs) construidos alrededor del núcleo de sus procesadores.
+
+CARACTERÍSTICAS: 
+
+•	El set de instrucciones contiene 158 instrucciones. Están incluidas las 78 instrucciones del 8080 y se mantiene la compatibilidad de software con el 8080. 
+
+•	Reloj de 8, 6, 4 y 2.5 MHz. Para el Z80H, Z80B, Z80A y Z80 CPU, resultando una rápida ejecución de instrucciones con la consecuente transferencia elevada de datos. 
+
+•	El extenso set de instrucciones incluye operaciones con palabras, bit, byte y cadena de caracteres. Búsqueda y transferencias de bloques a la vez mediante indexado y direccionamiento relativo, resultando el más competente y poderoso procesador de datos en la industria de los microcomputadores. 
+
+•	El microprocesador Z80 y la familia asociada de periféricos controladores pueden ser enlazados por un sistema vectorizado de interrupciones. Este sistema podría ser DaisyChained que permita la implementación de un esquema de interrupciones prioritario, se requiere poca lógica adicional para el acoplamiento. 
+
+•	Set duplicado de registros de banderas y de propósito general. 
+
+•	Dos registros índices de 16 bits. 
+
+•	Contador de refresco de memoria dinámica.
+
 
