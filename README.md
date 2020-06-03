@@ -8,6 +8,7 @@ El sistema operativo Collapse OS es un peculiar proyecto de sistema operativo de
 2) Objetivos
 
 Objetivo General
+
 Conocer el sistema operativo Collapse OS junto con la estructura del microprocesador Z80 y encontrar la relación entre ellos posteriormente realizar un ejemplo del microprocesador Z80
 
 Objetivos Especifico
