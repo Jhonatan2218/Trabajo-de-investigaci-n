@@ -41,13 +41,13 @@ Hoy en día, el Z80 se sigue utilizando, en una de sus últimas evoluciones (el 
 
 El Z80 tenía ocho mejoras fundamentales 
 
-  •	Un conjunto de instrucciones mejorado, incluyendo los nuevos registros índice IX e IY y las instrucciones necesarias para manejarlos.
-  •	Dos bancos de registros que podían ser cambiados de forma rápida para acelerar la respuesta a interrupciones.
-  •	Instrucciones de movimiento de bloques, E/S de bloques y búsqueda de bytes.
-  •	Instrucciones de manipulación de bits.
-  •	Un contador de direcciones para el refresco de la DRAM integrado, que en el 8080 tenía que ser proporcionado por el conjunto de circuitos de soporte.
-  •	Alimentación única de 5 voltios.
-  •	Necesidad de menos circuitos auxiliares, tanto para la generación de la señal de reloj como para el enlace con la memoria y la E/S.
-  •	Más barato que el Intel 8080.
-  •	Un tipo especial de reset que sólo reinicia el contador de programa de modo que el Z80 se puede usar en un sistema de desarrollo ICE
+    •	Un conjunto de instrucciones mejorado, incluyendo los nuevos registros índice IX e IY y las instrucciones necesarias para manejarlos.
+    •	Dos bancos de registros que podían ser cambiados de forma rápida para acelerar la respuesta a interrupciones.
+    •	Instrucciones de movimiento de bloques, E/S de bloques y búsqueda de bytes.
+    •	Instrucciones de manipulación de bits.
+    •	Un contador de direcciones para el refresco de la DRAM integrado, que en el 8080 tenía que ser proporcionado por el conjunto de circuitos de soporte.
+    •	Alimentación única de 5 voltios.
+    •	Necesidad de menos circuitos auxiliares, tanto para la generación de la señal de reloj como para el enlace con la memoria y la E/S.
+    •	Más barato que el Intel 8080.
+    •	Un tipo especial de reset que sólo reinicia el contador de programa de modo que el Z80 se puede usar en un sistema de desarrollo ICE
 
