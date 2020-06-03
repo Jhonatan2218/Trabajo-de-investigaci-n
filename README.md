@@ -19,7 +19,7 @@ Objetivos Especificos
    •	Conocer la arquitectura del microprocesador Z80.
    •	Simular ejemplos del z80.
 
-3)Estado del Arte
+3) Estado del Arte
 
 El investigador, desarrollador Virgil Dupras es creador de 'Collapse OS', un sistema operativo de código abierto que, afirma, está diseñado para funcionar en aquellos componentes electrónicos fáciles de reciclar. Es decir, es una plataforma que serviría para aprovechar la basura electrónica cuando ya no existan nuevos dispositivos electrónicos. Está pensado para ser usado en los momentos de un mundo postapocalíptico donde la tecnología ya no existe.
 
