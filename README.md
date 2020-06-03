@@ -14,12 +14,7 @@ Conocer el sistema operativo Collapse OS junto con la estructura del microproces
 Objetivos Especifico
 
 Investigar la arquitectura del microprocesador Zilog Z80 para realizar algoritmos que nos permitan hacer simulaciones y comprender mejor su funcionamiento.
-
-
-Investigar la arquitectura del microprocesador Zilog Z80 para realizar algoritmos que nos permitan hacer simulaciones y comprender mejor su funcionamiento
-
-Comprender y explicar el funcionamiento de Collapse Os 
-Conocer la arquitectura del microprocesador Z80
-Simular ejemplos del z80
-
-3) ESTADO DEL ARTE
+Investigar el funcionamiento del sistema operativo Collapse O.S y como es que Funcionará con microprocesadores Z80 de 8 
+Comprender y explicar el funcionamiento de Collapse Os.
+Conocer la arquitectura del microprocesador Z80.
+Simular ejemplos del z80.
