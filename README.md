@@ -142,9 +142,13 @@ Con los 14 registros de propósito general se efectúan, por medio de las instru
 8.	Tiene soporte de almacenamiento masivo.
 
 9.	Conocido para ejecutarse en:
+
 a.	Un RC2014 a través de un enlace en serie. También puede tener un teclado PS / 2 conectado directamente.
+
 b.	Un Sega Master System o un MegaDrive (Genesis) con salida de video y entrada D-Pad y / o un adaptador de teclado PS / 2.
+
 c.	Una TI-84 + con salida en la pantalla LCD y entrada en el teclado incorporado.
+
 d.	Un TRS-80 Modelo 4P con video incorporado y teclado.
 
 A, F y A', F'. Como en el caso anterior se trata de registros de 8 bits de los que solo dos son accesibles al mismo tiempo por estar divididos en bancos. El registro A es el acumulador que, como podemos ver en el gráfico, siempre será unos de los operandos de la ALU (Unidad Aritmético Lógica). Por su parte, en el registro F se encuentran los flags de la máquina que guardan su estado.
