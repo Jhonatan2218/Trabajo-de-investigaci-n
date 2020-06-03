@@ -187,26 +187,42 @@ CARRY( C): Se hace “1” si el resultado de una operación suma o resta se pro
 REGISTROS DE ÍNDICE IX e IY.
 
 IX e IY. Estos dos registros de 16 bits se usan como dirección base para instrucciones que hacen uso de vectores. Como podemos ver, existe una mini ALU que solo sirve para sumarle un dato de 8 bits a estos registros y volcar el resultado al bus de direcciones.
+
 PC: Contador de programa, apunta a la dirección de la siguiente instrucción a ejecutar, por lo tanto, tiene que ser de 16 bits.
+
 SP: Puntero de pila, apunta a la primera dirección libre de la pila de ejecución, por tanto, es necesario que también sea de 16 bits.
+
 Por otro lado, hay otros registros temporales como W y Z que se utilizan para operaciones internas a las instrucciones.
 
 Registro de interrupción y de refresco de memoria 
 
 El registro I se utiliza para saber dónde está la rutina que se debe ejecutar cuando el procesador recibe una interrupción, el registro R se utiliza para refresco de memoria dinámica. 
 Una vez hemos visto toda la información correspondiente a los registros, podemos pasar a las instrucciones. El microprocesador Z80 tiene 158 instrucciones.
+
 Las instrucciones se dividen en las siguientes categorías: 
+
 · Carga de 8 bits. 
-· Carga de 16 bits. 
+
+· Carga de 16 bits.
+
 · Intercambio, transferencia y búsqueda de bloques. 
+
 · Operaciones aritméticas y lógicas de 8 bits. 
+
 · Aritméticas de propósito general y control de CPU. 
+
 · Operaciones aritméticas de 16 bits. 
+
 · Solución y desplazamiento. 
+
 · Bit set, reset y operaciones de testeo. 
+
 · Saltos (jumps). 
+
 · Llamadas, retornos y reinicios. 
+
 · Operaciones de entrada y salida.
+
 Algunas instrucciones con su forma de lenguaje:
 
 
