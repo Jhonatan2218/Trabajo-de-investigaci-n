@@ -153,6 +153,64 @@ d.	Un TRS-80 Modelo 4P con video incorporado y teclado.
 
 A, F y A', F'. Como en el caso anterior se trata de registros de 8 bits de los que solo dos son accesibles al mismo tiempo por estar divididos en bancos. El registro A es el acumulador que, como podemos ver en el gráfico, siempre será unos de los operandos de la ALU (Unidad Aritmético Lógica). Por su parte, en el registro F se encuentran los flags de la máquina que guardan su estado.
 
+Banderas de estado (Flags)
+
+ El microprocesador tiene 8 Flips Flops, para monitorear ciertos resultados de las operaciones de la ALU, a la información que almacenan estos Flips Flops se conoce como banderas de estado, las banderas se actualizan después de cada operación con alguno de los registros, no todas las operaciones modifican a todas las banderas, de los 8 bits del registro de banderas, únicamente seis registran información útil para el programador, cuatro de estas banderas se prueban, esto es, se usan como condiciones de salto (JP), llamada (CALL), o regreso (RET), estas banderas son:
+ 
+Bit 7: Flag S. Es el flag que indica el signo, es decir, una copia del bit más significativo de la última operación de la ALU.
+
+Bit 6: Flag Z. Este flag indica si el resultado de la última operación es cero.
+
+Bit 5: Flag 5. Guarda una copia del bit 5 del resultado de la última operación.
+
+Bit 4: Flag H. Guarda el acarreo del bit 3 al 4 de la operación.
+
+Bit 3: Flag 3.Guarda una copia del bit 3 del resultado de la última operación.
+
+Bit 2: Flag P/V. Dependiendo de la operación, en este bit se muestra si el resultado tiene paridad par o bien hubo desbordamiento.
+
+Bit 1: Flag N. Se activará si la última operación fue una resta.
+
+Bit 0: Flag C. Es el bit de acarreo, se activará si el resultado de la operación no entra en el registro. 
+
+La paridad o sobre flujo(P/V) 
+La bandera “P” se utiliza para realizar funciones auxiliares necesarias para el usuario, le sirven para interpretar los resultados, es uno cuando el resultado de la operación lógica del complemento a dos produce un acarreo, de otro a formar es un cero lógico.
+
+SIGN(S): Es “1” si elbit mas significativo del resultado (MSB) de la operación de la ALU es “1”, si no, es “0”.
+
+ZERO(Z): Se hace “1” si el resultado de la operación de la ALU es “0”, si no, está en “0”.
+
+AUXILIAR CARRY: Se hace “1” si resulta un acarreo del b3 haia el b4 si no, es “0”
+
+CARRY( C): Se hace “1” si el resultado de una operación suma o resta se produce un acarreo (carry) o préstamo (borrow) en el bit de más alto orden, si no, es “0”.
+
+REGISTROS DE ÍNDICE IX e IY.
+
+IX e IY. Estos dos registros de 16 bits se usan como dirección base para instrucciones que hacen uso de vectores. Como podemos ver, existe una mini ALU que solo sirve para sumarle un dato de 8 bits a estos registros y volcar el resultado al bus de direcciones.
+PC: Contador de programa, apunta a la dirección de la siguiente instrucción a ejecutar, por lo tanto, tiene que ser de 16 bits.
+SP: Puntero de pila, apunta a la primera dirección libre de la pila de ejecución, por tanto, es necesario que también sea de 16 bits.
+Por otro lado, hay otros registros temporales como W y Z que se utilizan para operaciones internas a las instrucciones.
+
+Registro de interrupción y de refresco de memoria 
+
+El registro I se utiliza para saber dónde está la rutina que se debe ejecutar cuando el procesador recibe una interrupción, el registro R se utiliza para refresco de memoria dinámica. 
+Una vez hemos visto toda la información correspondiente a los registros, podemos pasar a las instrucciones. El microprocesador Z80 tiene 158 instrucciones.
+Las instrucciones se dividen en las siguientes categorías: 
+· Carga de 8 bits. 
+· Carga de 16 bits. 
+· Intercambio, transferencia y búsqueda de bloques. 
+· Operaciones aritméticas y lógicas de 8 bits. 
+· Aritméticas de propósito general y control de CPU. 
+· Operaciones aritméticas de 16 bits. 
+· Solución y desplazamiento. 
+· Bit set, reset y operaciones de testeo. 
+· Saltos (jumps). 
+· Llamadas, retornos y reinicios. 
+· Operaciones de entrada y salida.
+Algunas instrucciones con su forma de lenguaje:
+
+
+
 
 
 
