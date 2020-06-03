@@ -118,7 +118,7 @@ Las operaciones del CPU Z80 se realizan con un grupo de dispositivos lógicos co
 6. Comparaciones
 7. Poner, Limpiar o probar un bit
 
-
+![](Imagenes/Arquitectura.jpeg)
 
 REGISTROS DE PROPÓSITO GENERAL
 
