@@ -51,3 +51,16 @@ El Z80 tenía ocho mejoras fundamentales
     •	Más barato que el Intel 8080.
     •	Un tipo especial de reset que sólo reinicia el contador de programa de modo que el Z80 se puede usar en un sistema de desarrollo ICE
 
+
+A fines de 1975, incluso antes de anunciar el Z80, Faggin tuvo claro que la compañía necesitaba un sucesor de 16 bits para el Z80. Sintió que los procesadores de 16 bits eran el futuro y que el futuro era inminente. En ese momento, Zilog tenía todos los 11 empleados. Sin embargo, Faggin no quería crear una versión ampliada de 16 bits del Z80, un "super Z80". Además, no se sentía calificado para desarrollar una nueva arquitectura de microprocesador de 16 bits a partir de todo el tejido, por lo que buscó un arquitecto de procesadores experto. Encontró al Dr. Peuto, que había estado trabajando en la arquitectura mainframe 470 / V6 compatible con IBM de Amdahl desde 1973. Peuto se convirtió rápidamente en el duodécimo empleado de Zilog. (Leibson, 2019).
+
+Marco teorico
+
+Microprocesadores
+
+Intel Corporation.
+
+Intel fue fundada el 18 de julio de 1968 como Integrated Electronics Corporation son los pioneros en semiconductores Robert Noyce y Gordon Moore, y muchas veces asociados con la dirección ejecutiva y la visión de Andrew Grove.
+Pero Intel no siempre tuvo la visión de futuro acertada. Moore recuerda como a mediados de los 70 le propusieron comercializar el 8080 equipado con un teclado 37 y un monitor orientado al mercado doméstico. Es decir, le estaban proponiendo ser los pioneros en el mundo de las computadoras personales. Pero no vieron la utilidad de esos aparatos, y descartaron la idea.
+(JOHN HANNER MARQUEZ ORTIZ, 2013)
+En el año 1969, un equipo de ingenieros japoneses de la compañía BUSICOM llegó a Estados Unidos con una idea, ellos deseaban usar para sus proyectos pocos circuitos integrados de los que se usaban en las calculadoras. La proposición se hizo a INTEL (JOHN HANNER MARQUEZ ORTIZ, 2013). El Intel 4004 fue el primer microprocesador de la historia y, tras éste, Intel desarrolló otro procesador más del cual se encargó Federico Faggin, responsable del Intel 4004, al que se le encargó el desarrollo de un procesador de 8 bits, el Intel 8080 que también gozó de un gran éxito en el mercado. Al finalizar este proyecto en 1974, Faggin pensó que era hora de volar en solitario y afrontar nuevos proyectos y decidió fundar su propia compañía, Zilog, en la que se desarrollaría otro mítico procesador: el Zilog Z80.
