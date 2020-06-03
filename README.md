@@ -98,4 +98,58 @@ CARACTERÍSTICAS:
 
 El Z80 resulta ser un microprocesador más rápido y sencillo en el desarrollo de sistemas ya que solo usa una fuente de alimentación de +5 Volts, contiene íntegramente todo el conjunto de instrucciones del 8080, lo cual le permite ejecutar todos los programas escritos para el CPU 8080, contiene el Z80 una expansión adicional de 80 instrucciones de ahí se deriva su nombre, su repertorio suma un totaL DE 158 Instrucciones. 
 
+LA UNIDAD ARITMÉTICA Y LÓGICA (ALU)
+
+Las operaciones del CPU Z80 se realizan con un grupo de dispositivos lógicos conocidos comúnmente como unidad aritmética y lógica (ALU) esta efectúa las siguientes operaciones:
+1. Suma binaria.
+2. Operaciones lógicas.
+3. Complementar a dos.
+4. Corrimiento de un bit a la derecha o a la izquierda.
+5. Registro de resultados importantes como el acarreo, signo, acarreo auxiliar, paridad o si el resultado es cero.
+6. Comparaciones
+7. Poner, Limpiar o probar un bit
+
+REGISTROS DE PROPÓSITO GENERAL
+
+Los registros constituyen una especie de pequeña memoria interna al microprocesador. El Z-80 tiene registros de 8 y 16 bits, si bien los de 8 bits se pueden agrupar de 2 en 2 para formar uno de 16 bits. Todas las operaciones que realiza el Z-80 se hacen entre números
+contenidos en los registros, o bien, entre un registro y una posición de memoria; por eso se dice que el Z-80 es un microprocesador orientado hacia los registros. La posibilidad de agrupar dos registros de 8 bits para formar uno de 16, permite al Z-80 realizar operaciones de 16 bits a pesar de ser un microprocesador de 8 bits. El Z-80 tiene, en total, 18 registros de 8 bits y 4 registros de 16 bits. Algunos son de uso general y otros tienen asignadas funciones específicas.
+
+El microprocesador Z80 separados en dos grupos:
+GRUPO 1: los registros principales son
+
+     A, B, C, D, E, H, y L
+     
+GRUPO 2: los registros alternos
+
+     A', B', C', D', E', H' y L
+     
+Estos registros son de 8 bits, pero pueden agruparse por pares (sin contar “A Y A'”) en registros de 16 bits de la forma BC, DE, HL y B'C', D'E', H'L'. Tienen la particularidad de que solo son accesibles a la vez 6 de ellos, pues están divididos en 2 bancos intercambiables por medio de unas instrucciones.
+Con los 14 registros de propósito general se efectúan, por medio de las instrucciones las siguientes funciones:
+1.	Recibir datos desde la memoria.
+
+2.	Enviar datos hacia la memoria.
+
+3.	Incrementar o decrementar en su contenido.
+
+4.	Formar una dirección con el contenido de un par de registros.
+
+5.	Transferir datos entre los registros.
+
+6.	Obtener un operando durante las funciones de la ALU. 
+
+7.	Autorreplica: puede ensamblarse desde sí mismo, con suficiente RAM y almacenamiento.
+
+8.	Tiene soporte de almacenamiento masivo.
+
+9.	Conocido para ejecutarse en:
+a.	Un RC2014 a través de un enlace en serie. También puede tener un teclado PS / 2 conectado directamente.
+b.	Un Sega Master System o un MegaDrive (Genesis) con salida de video y entrada D-Pad y / o un adaptador de teclado PS / 2.
+c.	Una TI-84 + con salida en la pantalla LCD y entrada en el teclado incorporado.
+d.	Un TRS-80 Modelo 4P con video incorporado y teclado.
+
+A, F y A', F'. Como en el caso anterior se trata de registros de 8 bits de los que solo dos son accesibles al mismo tiempo por estar divididos en bancos. El registro A es el acumulador que, como podemos ver en el gráfico, siempre será unos de los operandos de la ALU (Unidad Aritmético Lógica). Por su parte, en el registro F se encuentran los flags de la máquina que guardan su estado.
+
+
+
+
 
