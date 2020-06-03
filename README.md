@@ -21,3 +21,5 @@ Investigar la arquitectura del microprocesador Zilog Z80 para realizar algoritmo
 Comprender y explicar el funcionamiento de Collapse Os 
 Conocer la arquitectura del microprocesador Z80
 Simular ejemplos del z80
+
+3) ESTADO DEL ARTE
