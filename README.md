@@ -16,3 +16,8 @@ Objetivos Especifico
 Investigar la arquitectura del microprocesador Zilog Z80 para realizar algoritmos que nos permitan hacer simulaciones y comprender mejor su funcionamiento.
 
 
+Investigar la arquitectura del microprocesador Zilog Z80 para realizar algoritmos que nos permitan hacer simulaciones y comprender mejor su funcionamiento
+
+Comprender y explicar el funcionamiento de Collapse Os 
+Conocer la arquitectura del microprocesador Z80
+Simular ejemplos del z80
