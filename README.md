@@ -118,6 +118,8 @@ Las operaciones del CPU Z80 se realizan con un grupo de dispositivos lógicos co
 6. Comparaciones
 7. Poner, Limpiar o probar un bit
 
+
+
 REGISTROS DE PROPÓSITO GENERAL
 
 Los registros constituyen una especie de pequeña memoria interna al microprocesador. El Z-80 tiene registros de 8 y 16 bits, si bien los de 8 bits se pueden agrupar de 2 en 2 para formar uno de 16 bits. Todas las operaciones que realiza el Z-80 se hacen entre números
