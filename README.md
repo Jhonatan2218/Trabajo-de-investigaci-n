@@ -23,7 +23,7 @@ Objetivos Especificos
 
 3) ESTADO DEL ARTE
 
-1.Collaspe OS
+1. Collaspe OS
 
 El investigador, desarrollador Virgil Dupras es creador de 'Collapse OS', un sistema operativo de código abierto que, afirma, está diseñado para funcionar en aquellos componentes electrónicos fáciles de reciclar. Es decir, es una plataforma que serviría para aprovechar la basura electrónica cuando ya no existan nuevos dispositivos electrónicos. Está pensado para ser usado en los momentos de un mundo postapocalíptico donde la tecnología ya no existe.
 
@@ -36,7 +36,7 @@ Un sistema operativo que, afirma, está diseñado para funcionar en aquellos com
 Así lo explicó Dupras a Vice: "Hago esto para mitigar un riesgo que creo que es real. No es inevitable, pero probablemente lo suficiente para justificar un esfuerzo modesto"(Virgil Dupras).
 
 
-Microprocesador Z80
+2. Microprocesador Z80
 
 
 El Intel 8080, lanzado en 1974, fue el primer microprocesador de 8 bits que tuvo éxito entre la comunidad de programadores, teniendo como principal exponente al MITS Altair 8800. Dos años después y con la intención de hacerse con el mercado, Zilog lanzó el Z80, que atrajo a los programadores de la época al ser totalmente compatible con la arquitectura del Intel 8080 y añadir nuevas e interesantes funcionalidades, como un set de instrucciones extendido.
@@ -237,7 +237,8 @@ Las instrucciones se dividen en las siguientes categorías:
 
 Algunas instrucciones con su forma de lenguaje:
 
-MARCO TEÓRICO COLLAPSE OS
+COLLAPSE OS
+
 Virgil Dupras, desarrollador de software Collapse os es un sistema operativo de código abierto diseñado específicamente para los días más oscuros de la humanidad. Tendrá que ser capaz de trabajar con componentes que se encuentran en todas partes y fáciles de recuperar en anticipación de un futuro apocalíptico donde la electrónica de consumo es cosa del pasado. Collapse os tiene como objetivo suavizar el golpe de ese futuro apocalíptico. Es un sistema operativo Forth y una colección de herramientas y documentación con un solo propósito: preservar la capacidad de programar microcontroladores a través del colapso de la civilización. Pero la electrónica seguiría siendo una enorme fuente de poder político y social y ofrecería ventajas significativas a las comunidades que lograran seguir dominándola. Esto marcará el comienzo de una nueva era de “productos caseros electrónicos”. No podríamos fabricarlos los microprocesadores, pero tendríamos millones de chips repartidos por todo el mundo fruto de la basura electrónica acumulada durante décadas. Funcionará con microprocesadores Z80 de 8 bits. Aunque son muy antiguos, se podrían encontrar masivamente en viejas computadoras, cajas registradoras, instrumentos musicales, calculadoras gráficas y centenares de productos electrónicos. Y otro asunto importante: el Z80 solo tiene 9.000 transistores, por lo que sería mucho más sencillo de reprogramar que un procesador moderno con miles de millones.
 Está diseñado para:
 1.	Ejecutar en máquinas mínimas e improvisadas.
