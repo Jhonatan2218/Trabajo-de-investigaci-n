@@ -265,6 +265,8 @@ Con todo lo mencionado, en el colapso de la civilización en el ámbito de la te
 
 6) Explicacion del Codigo Fuente
 
+1.Fibonacci
+
 ![](Anexos/Anexo%202.jpeg)
 
 Elprograma lo llamaremo solo “Finobacci” el cual va a realizar la siguiente serie que consiste en sumar un numero con el anetior y asi sucesivamente:
@@ -286,6 +288,8 @@ Instrucciones
 ![](Anexos/Anexo%203.jpeg)
 
 El ultimo numero de nuestre serie es 59
+
+2. Calendario
 
 ![](Anexos/Anexo%204.jpeg)
 
@@ -318,7 +322,7 @@ Los resultados los observaremos de la siguiente manera:
     D= el año
 Todo esto en codigo hexadecimal.
 
-11) CONCLUSIONES
+7) CONCLUSIONES
 
 •	De presentarse un evento catastrófico, este proyecto significaría una posibilidad de reestablecer el desarrollo tecnológico a base de pocos recursos utilizando un sistema operativo que no exige de muchos requisitos físicos para implementar un equipo que pueda ejecutarlo.
 
@@ -326,7 +330,7 @@ Todo esto en codigo hexadecimal.
 
 •	La arquitectura basada en el modelo de Von Newman ha prevalecido desde 1945 y demuestra lo eficaz que es en la práctica.  
 
-12) RECOMENDACIONES
+8) RECOMENDACIONES
 
 Manejar conocimientos en área de programación y sistemas digitales seria de vital importancia en el escenario con el que se justifica este proyecto. Por lo que se recomienda:
 
@@ -334,18 +338,27 @@ Manejar conocimientos en área de programación y sistemas digitales seria de vi
 
 -	Difundir entre la comunidad científica el estado de desarrollo en el que se encuentra el proyecto, para que sea de conocimiento general e incentive a futuros proyectos investigación.
 
-Bibliografía
+9) Bibliografía
 
 Alarcón, J. H. (3 de MARZO de 2018). Microprocesadores. Obtenido de slideplayer: https://slideplayer.es/slide/12209555/
 ÁLVAREZ, R. (09 de OCTUBRE de 2019). 'Collapse OS', el sistema operativo open source que está siendo diseñado para "sobrevivir al apocalipsis". Obtenido de xataka: https://www.xataka.com/componentes/collapse-os-sistema-operativo-open-source-que-esta-siendo-disenado-para-sobrevivir-al-apocalipsis
+
 Dupras, V. (2019). Collapse OS. Obtenido de Collapse OS: https://collapseos.org/
+
 Gault, M. (8 de OCTUBRE de 2019). Collapse OS' Is an Open Source Operating System for the Post-Apocalypse. Obtenido de vice: https://www.vice.com/en_us/article/ywaqbg/collapse-os-is-an-open-source-operating-system-for-the-post-apocalypse
+
 JOHN HANNER MARQUEZ ORTIZ, F. R. (2013). DISEÑO E IMPLEMENTACIÓN BANCO DE PRUEBAS PARA MICROCONTROLADORES EN LENGUAJE DE ALTO NIVEL, DIRIGIDO A ESTUDIANTES DE EDUCACIÓN MEDIA TÉCNICA, INSTITUTOS TÉCNICOS. Obtenido de uniminuto: https://repository.uniminuto.edu/bitstream/handle/10656/4764/T.TE%20MARQUEZ%20ORTIZ%20JOHN%20HANNER.pdf?sequence=1&isAllowed=y
+
 Leibson, S. (2019). Historia de la Computación. Obtenido de eejournal: https://www.eejournal.com/article/in-memoriam-dr-bernard-peuto-architect-of-zilogs-z8000-and-z8/
+
 NACIMBA, L. D. (15 de MARZO de 2019). APLICACIÓN DE UN SISTEMA CON MICROPROCESADORES PARA POTENCIAR LA ENSEÑANZA APRENDIZAJE DE SISTEMAS DIGITALES . Obtenido de unesum: http://repositorio.unesum.edu.ec/bitstream/53000/1548/1/UNESUM-ECU-SISTEMAS-2019-15.pdf
+
 Naranjo, D. (15 de noviembre de 2019). Collapse OS, el sistema operativo post-apocalipsis diseñado para trabajar con componentes fáciles de recuperar. Obtenido de desdelinux: https://blog.desdelinux.net/collapse-os-el-sistema-operativo-post-apocalipsis-disenado-para-trabajar-con-componentes-faciles-de-recuperar/
+
 Navarro Martínez, Á. (20 de septiembre de 2019). Galahad Escape! Obtenido de RUA: http://rua.ua.es/dspace/handle/10045/96413
+
 Suárez, J. G. (9 de ENERO de 2015). Prácticas con el microprocesador Z80. Obtenido de http://galia.fc.uaslp.mx/~cantocar/microprocesadores/TUTORIALES/EL_MICRO_Z80/ARQUITECTURA_DEL_MICROPROCE.HTM
+
 Velasco, J. (7 de febrero de 2012). Historia de la Tecnología: Zilog Z80. Obtenido de hipertextual: https://hipertextual.com/2012/02/historia-de-la-tecnologia-zilog-z80
 
 
