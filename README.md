@@ -251,13 +251,20 @@ Además, el objetivo de este proyecto es ser lo más autónomo posible. Con una 
 Con todo lo mencionado, en el colapso de la civilización en el ámbito de la tecnología “cualquiera” podría crear su propia computadora. (eso pa la diapositiva creo :v)
 (Eso es lo más relevante que encontré hay añádele tu algo mas, con todo igual seguire trabajando para buscar mas y te aviso)
 
-CONCLUSIONES.
-•	De presentarse un evento catastrófico, este proyecto significaría una posibilidad de reestablecer el desarrollo tecnológico a base de pocos recursos utilizando un sistema operativo que no exige de muchos requisitos físicos para implementar un equipo que pueda ejecutarlo. 
+11) CONCLUSIONES
+
+•	De presentarse un evento catastrófico, este proyecto significaría una posibilidad de reestablecer el desarrollo tecnológico a base de pocos recursos utilizando un sistema operativo que no exige de muchos requisitos físicos para implementar un equipo que pueda ejecutarlo.
+
 •	El sistema basado en un procesador z80 ofrece la posibilidad de ser construido a base de materiales reciclados, sin embargo, su interfaz no es precisamente la más amigable para un usuario promedio, por lo que las personas que tengan mayor dominio sobre los dispositivos electrónicos destacaran.
+
 •	La arquitectura basada en el modelo de Von Newman ha prevalecido desde 1945 y demuestra lo eficaz que es en la práctica.  
-RECOMENDACIONES.
+
+12) RECOMENDACIONES
+
 Manejar conocimientos en área de programación y sistemas digitales seria de vital importancia en el escenario con el que se justifica este proyecto. Por lo que se recomienda:
+
 -	Diseñar sistemas basados en este tipo de arquitectura, entendiendo su funcionamiento y simulando aplicaciones que sean útiles para el ser humano, considerando que en la actualidad este tipo de sistemas, por su antigüedad, tienden a ser más accesibles.
+
 -	Difundir entre la comunidad científica el estado de desarrollo en el que se encuentra el proyecto, para que sea de conocimiento general e incentive a futuros proyectos investigación.
 
 
