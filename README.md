@@ -236,13 +236,13 @@ Las instrucciones se dividen en las siguientes categorías:
 · Operaciones de entrada y salida.
 
 Algunas instrucciones con su forma de lenguaje:
-![](https://github.com/Jhonatan2218/Trabajo-de-investigaci-n/blob/master/Imagenes/Instrucciones%201.jpeg?raw=true)
+![](Imagenes/Instrucciones%201.jpeg)
 
-![](https://github.com/Jhonatan2218/Trabajo-de-investigaci-n/blob/master/Imagenes/Instrucciones%202.jpeg?raw=true)
+![](Imagenes/Instrucciones%202.jpeg)
 
-![](https://github.com/Jhonatan2218/Trabajo-de-investigaci-n/blob/master/Imagenes/Instrucciones%203.jpeg?raw=true)
+![](Imagenes/Instrucciones%203.jpeg)
 
-![](https://github.com/Jhonatan2218/Trabajo-de-investigaci-n/blob/master/Imagenes/Instrucciones%204.jpeg?raw=true)
+![](Imagenes/Instrucciones%204.jpeg)
 
 
 COLLAPSE OS
