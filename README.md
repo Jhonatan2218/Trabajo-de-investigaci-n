@@ -250,23 +250,6 @@ Además, el objetivo de este proyecto es ser lo más autónomo posible. Con una 
 Con todo lo mencionado, en el colapso de la civilización en el ámbito de la tecnología “cualquiera” podría crear su propia computadora. (eso pa la diapositiva creo :v)
 (Eso es lo más relevante que encontré hay añádele tu algo mas, con todo igual seguire trabajando para buscar mas y te aviso)
 
-
-LINKS BIBLIOGRAFIA marco teorico
-http://repositorio.unesum.edu.ec/bitstream/53000/1548/1/UNESUM-ECU-SISTEMAS-2019-15.pdf
-http://galia.fc.uaslp.mx/~cantocar/microprocesadores/TUTORIALES/EL_MICRO_Z80/ARQUITECTURA_DEL_MICROPROCE.HTM
-http://sistel.xp3.biz/microprocesadores/tm_arquitectura_z80.html
-http://hdl.handle.net/10045/96413
-https://hipertextual.com/2012/02/historia-de-la-tecnologia-zilog-z80
-https://blog.desdelinux.net/collapse-os-el-sistema-operativo-post-apocalipsis-disenado-para-trabajar-con-componentes-faciles-de-recuperar/
-DIAGRAMAS EN LOS LINKS.
-MANUAL DE INSTRUCCIONES
-Z80
-http://www1.frm.utn.edu.ar/tecnicad2/tec_dig2/doc/Z80-CPU-Manual-SP.pdf
-COLLAPSE OS
-Podemos poner la pagina del github
-ejemplos
-https://modscolombia.jimdofree.com/info/z80
- 
 CONCLUSIONES.
 •	De presentarse un evento catastrófico, este proyecto significaría una posibilidad de reestablecer el desarrollo tecnológico a base de pocos recursos utilizando un sistema operativo que no exige de muchos requisitos físicos para implementar un equipo que pueda ejecutarlo. 
 •	El sistema basado en un procesador z80 ofrece la posibilidad de ser construido a base de materiales reciclados, sin embargo, su interfaz no es precisamente la más amigable para un usuario promedio, por lo que las personas que tengan mayor dominio sobre los dispositivos electrónicos destacaran.
