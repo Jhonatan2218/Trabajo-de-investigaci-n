@@ -265,7 +265,7 @@ Con todo lo mencionado, en el colapso de la civilización en el ámbito de la te
 
 6) Explicacion del Codigo Fuente
 
-![](Anexos/Anexo%202.jpg)
+![](Anexos/Anexo%202.jpeg)
 
 Elprograma lo llamaremo solo “Finobacci” el cual va a realizar la siguiente serie que consiste en sumar un numero con el anetior y asi sucesivamente:
 
@@ -283,10 +283,10 @@ Instrucciones
        •	INC: incremento
        •	END: fin
        
-![](Anexos/Anexo%203.jpg)
+![](Anexos/Anexo%203.jpeg)
 El ultimo numero de nuestre serie es 59
 
-![](Anexos/Anexo%204.jpg)
+![](Anexos/Anexo%204.jpeg)
 El programa lo llamaremos “calendario” consiste de tres entradas (día, mes, año), el cual nos va devolver el día siguiente.
 
 Nota: si el día ingresado es 31 de diciembre del 2019 el resultado ser 01 de enero del 2020, solo en ese caso cambiaras todas las salidas.
@@ -307,7 +307,7 @@ Instrucciones
     •	INC: incremento
     •	HALT: esperar por interrupción o reset
     •	END: fin
-![](Anexos/Anexo%205.jpg)
+![](Anexos/Anexo%205.jpeg)
 Los resultados los observaremos de la siguiente manera:
 
     B= el dia
