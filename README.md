@@ -87,7 +87,6 @@ Un año después sale al mercado el primer computador que hace uso del Z80, el T
 Fue muy popular durante los años 80 debido principalmente a dos razones: ser compatible con el Intel 8080 ya que fue el mismo Faggin quien lo diseño, y ser popularizado por varias videoconsolas (Amstrad CPC, Sinclair ZX Spectrum). Posteriormente ha sido utilizado por tras videoconsolas (Sega Master System, Nitendo Game Boy Advance y chip dedicado de audio en la Sega MegaDrive). 
 Tras del Z80 Zilog introduce varios procesadores de 16 bits y 32 bits, pero sin mucho éxito, por lo que la compañía se orienta al mercado de microcontroladores, produciendo CPUs básicas y Circuitos Integrados para Aplicaciones Específicas (ASICs/ASSPs) construidos alrededor del núcleo de sus procesadores.
 
-![](Imagenes/Mapa%20Conceptual.jpeg)
 
 CARACTERÍSTICAS: 
 
@@ -236,6 +235,7 @@ Las instrucciones se dividen en las siguientes categorías:
 · Operaciones de entrada y salida.
 
 Algunas instrucciones con su forma de lenguaje:
+
 
 COLLAPSE OS
 
