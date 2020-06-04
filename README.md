@@ -338,7 +338,10 @@ Manejar conocimientos en área de programación y sistemas digitales seria de vi
 
 -	Difundir entre la comunidad científica el estado de desarrollo en el que se encuentra el proyecto, para que sea de conocimiento general e incentive a futuros proyectos investigación.
 
-9) Bibliografía
+9) CRONOGRAMA
+![](Imagenes/Calendario.jpeg)
+
+10) Bibliografía
 
 Alarcón, J. H. (3 de MARZO de 2018). Microprocesadores. Obtenido de slideplayer: https://slideplayer.es/slide/12209555/
 ÁLVAREZ, R. (09 de OCTUBRE de 2019). 'Collapse OS', el sistema operativo open source que está siendo diseñado para "sobrevivir al apocalipsis". Obtenido de xataka: https://www.xataka.com/componentes/collapse-os-sistema-operativo-open-source-que-esta-siendo-disenado-para-sobrevivir-al-apocalipsis
