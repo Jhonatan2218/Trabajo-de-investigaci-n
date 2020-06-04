@@ -87,6 +87,7 @@ Un año después sale al mercado el primer computador que hace uso del Z80, el T
 Fue muy popular durante los años 80 debido principalmente a dos razones: ser compatible con el Intel 8080 ya que fue el mismo Faggin quien lo diseño, y ser popularizado por varias videoconsolas (Amstrad CPC, Sinclair ZX Spectrum). Posteriormente ha sido utilizado por tras videoconsolas (Sega Master System, Nitendo Game Boy Advance y chip dedicado de audio en la Sega MegaDrive). 
 Tras del Z80 Zilog introduce varios procesadores de 16 bits y 32 bits, pero sin mucho éxito, por lo que la compañía se orienta al mercado de microcontroladores, produciendo CPUs básicas y Circuitos Integrados para Aplicaciones Específicas (ASICs/ASSPs) construidos alrededor del núcleo de sus procesadores.
 
+![](Imagenes/Mapa%20Conceptual.jpeg)
 
 CARACTERÍSTICAS: 
 
@@ -236,7 +237,6 @@ Las instrucciones se dividen en las siguientes categorías:
 
 Algunas instrucciones con su forma de lenguaje:
 
-
 COLLAPSE OS
 
 Virgil Dupras, desarrollador de software Collapse os es un sistema operativo de código abierto diseñado específicamente para los días más oscuros de la humanidad. Tendrá que ser capaz de trabajar con componentes que se encuentran en todas partes y fáciles de recuperar en anticipación de un futuro apocalíptico donde la electrónica de consumo es cosa del pasado. Collapse os tiene como objetivo suavizar el golpe de ese futuro apocalíptico. Es un sistema operativo Forth y una colección de herramientas y documentación con un solo propósito: preservar la capacidad de programar microcontroladores a través del colapso de la civilización. Pero la electrónica seguiría siendo una enorme fuente de poder político y social y ofrecería ventajas significativas a las comunidades que lograran seguir dominándola. Esto marcará el comienzo de una nueva era de “productos caseros electrónicos”. No podríamos fabricarlos los microprocesadores, pero tendríamos millones de chips repartidos por todo el mundo fruto de la basura electrónica acumulada durante décadas. Funcionará con microprocesadores Z80 de 8 bits. Aunque son muy antiguos, se podrían encontrar masivamente en viejas computadoras, cajas registradoras, instrumentos musicales, calculadoras gráficas y centenares de productos electrónicos. Y otro asunto importante: el Z80 solo tiene 9.000 transistores, por lo que sería mucho más sencillo de reprogramar que un procesador moderno con miles de millones.
@@ -248,8 +248,12 @@ Está diseñado para:
 5.	Lea y escriba desde una amplia gama de dispositivos de almacenamiento.
 6.	Ensamblar y desplegar en otra máquina
 Además, el objetivo de este proyecto es ser lo más autónomo posible. Con una copia de este proyecto, “cualquier” persona capaz y creativa debería ser capaz de construir e instalar Collapse OS sin recursos externos (es decir, Internet) en una máquina de su diseño, construida a partir de piezas recolectadas con herramientas de baja tecnología.
-Con todo lo mencionado, en el colapso de la civilización en el ámbito de la tecnología “cualquiera” podría crear su propia computadora. (eso pa la diapositiva creo :v)
-(Eso es lo más relevante que encontré hay añádele tu algo mas, con todo igual seguire trabajando para buscar mas y te aviso)
+Con todo lo mencionado, en el colapso de la civilización en el ámbito de la tecnología “cualquiera” podría crear su propia computadora. 
+
+5) DIAGRAMAS
+![](Imagenes/Esquema%20General.jpg)
+
+![](Imagenes/Z80interno.jpg)
 
 11) CONCLUSIONES
 
