@@ -287,7 +287,7 @@ Instrucciones
        
 ![](Anexos/Anexo%203.jpeg)
 
-El ultimo numero de nuestre serie es 59
+El ultimo numero de nuestre serie es 59 mostrado en el registro C
 
 2. Calendario
 
