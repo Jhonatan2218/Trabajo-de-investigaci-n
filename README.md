@@ -263,6 +263,45 @@ Con todo lo mencionado, en el colapso de la civilización en el ámbito de la te
 
 ![](Imagenes/Z80interno.jpg)
 
+6) Explicacion del Codigo Fuente
+![](Imagenes/Anexo%202.jpg)
+Elprograma lo llamaremo solo “Finobacci” el cual va a realizar la siguiente serie que consiste en sumar un numero con el anetior y asi sucesivamente:
+0,1,1,2,3,5,8,13…….
+Nota: nosotro ingresaremos los primeros numero y la cantidad de numeros de la serie que deseemos.
+Instrucciones
+       •	LD: cargar datos a/desde los registros
+       •	JP: salto
+       •	HALT: esperar por interrupción
+       •	ADD: sumar
+       •	DJNZ: detectar cero-saltar
+       •	INC: incremento
+       •	END: fin
+       
+![](Imagenes/Anexo%203.jpg)
+
+El ultimo numero de nuestre serie es 59
+
+![](Imagenes/Anexo%204.jpg)
+El programa lo llamaremos “calendario” consiste de tres entradas (día, mes, año), el cual nos va devolver el día siguiente.
+Nota: si el día ingresado es 31 de diciembre del 2019 el resultado ser 01 de enero del 2020, solo en ese caso cambiaras todas las salidas.
+Ejemplo: 
+Utilizaremos la siguiente fecha:
+28 de octubre de 1998 
+R: 29 de octubre de 1998
+Instrucciones 
+   •	LD: cargar datos a/desde los registros
+   •	SUB: sustracción
+   • 	JP: salto
+   •	INC: incremento
+   •	HALT: esperar por interrupción o reset
+   •	END: fin
+![](Imagenes/Anexo%205.jpg)
+Los resultados los observaremos de la siguiente manera:
+B= el dia
+C= el mes
+D= el año
+Todo esto en codigo hexadecimal.
+
 11) CONCLUSIONES
 
 •	De presentarse un evento catastrófico, este proyecto significaría una posibilidad de reestablecer el desarrollo tecnológico a base de pocos recursos utilizando un sistema operativo que no exige de muchos requisitos físicos para implementar un equipo que pueda ejecutarlo.
